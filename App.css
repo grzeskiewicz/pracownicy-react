@@ -1,0 +1,59 @@
+#root {
+  height: 100vh;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+td,
+th {
+  border: 1px solid #333;
+}
+
+#create-employee {
+  display: flex;
+}
+
+#create-employee form {
+  display: flex;
+  flex-flow: column;
+}
+
+.selected {
+  background-color: green;
+}
+
+.App {
+  display: flex;
+  flex-flow:row nowrap;
+  height: 100%;
+  margin:1rem;
+}
+
+#main {
+  display: flex;
+  flex-flow:column nowrap;
+
+  flex:0 50%;
+}
+
+.left-column{
+  display: flex;
+  flex-flow:column nowrap;
+  flex:0 15%;
+}
+
+#filters {
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding:0.5rem;
+
+}
+
+#create-employee {
+  padding:0.5rem;
+
+}
